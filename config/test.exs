@@ -16,4 +16,5 @@ config :rumbl, Rumbl.Repo,
   password: "postgres",
   database: "rumbl_test",
   hostname: "localhost",
+  ownership_timeout: 60_000,
   pool: Ecto.Adapters.SQL.Sandbox
